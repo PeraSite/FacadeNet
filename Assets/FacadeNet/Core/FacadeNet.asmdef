@@ -1,12 +1,7 @@
 {
-    "name": "FacadeNet.LiteNetLib",
+    "name": "FacadeNet",
     "rootNamespace": "",
-    "references": [
-      "GUID:9d12953d290ed43218520fde6f01f004",
-      "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
-      "GUID:560b04d1a97f54a4e82edc0cbbb69285",
-      "GUID:af6691e8c20f469b8df768c0f2d265c3"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

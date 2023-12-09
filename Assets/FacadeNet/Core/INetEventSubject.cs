@@ -1,6 +1,7 @@
 ﻿using System;
+using FacadeNet.Core.Data;
 
-namespace FacadeNet.Interface {
+namespace FacadeNet.Core {
 	public interface INetEventSubject {
 		IObservable<IConnection> ObserveConnect();
 		IObservable<(IConnection connection, DisconnectInfo disconnectInfo)> ObserveDisconnect();

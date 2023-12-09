@@ -1,7 +1,7 @@
-﻿using FacadeNet.Interface;
+﻿using FacadeNet.Core;
 using MessagePack;
 
-namespace FacadeNet.MessagePack {
+namespace FacadeNet.Impl.MessagePack {
 	public class SerializerImpl : ISerializer {
 		public byte[] Serialize<T>(T data) {
 			return MessagePackSerializer.Serialize(data);

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using FacadeNet.Interface;
+using FacadeNet.Core;
 using NUnit.Framework;
 
 namespace FacadeNet.Tests.Utils {

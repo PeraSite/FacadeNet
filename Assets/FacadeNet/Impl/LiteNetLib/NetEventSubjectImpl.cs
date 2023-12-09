@@ -1,8 +1,9 @@
 ﻿using System;
-using FacadeNet.Interface;
+using FacadeNet.Core;
+using FacadeNet.Core.Data;
 using UniRx;
 
-namespace FacadeNet.LiteNetLib {
+namespace FacadeNet.Impl.LiteNetLib {
 	public class NetEventSubjectImpl : INetEventSubject {
 		private readonly ISerializer _serializer;
 

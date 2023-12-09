@@ -1,10 +1,10 @@
 ﻿using System.Net;
-using FacadeNet.Interface;
+using FacadeNet.Core;
 using LiteNetLib;
 using LiteNetLib.Utils;
 using Zenject;
 
-namespace FacadeNet.LiteNetLib {
+namespace FacadeNet.Impl.LiteNetLib {
 	public class ConnectionImpl : IConnection {
 		public int Id => _peer.Id;
 		public IPEndPoint Endpoint => _peer.EndPoint;

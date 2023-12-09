@@ -4,17 +4,17 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Cysharp.Threading.Tasks;
-using FacadeNet.Interface;
-using FacadeNet.LiteNetLib;
-using FacadeNet.MessagePack;
+using FacadeNet.Core;
+using FacadeNet.Impl.LiteNetLib;
+using FacadeNet.Impl.MessagePack;
 using FacadeNet.Tests.Utils;
 using LiteNetLib;
 using MessagePack;
 using NUnit.Framework;
 using UniRx;
 using Zenject;
-using DisconnectInfo = FacadeNet.Interface.DisconnectInfo;
-using DisconnectReason = FacadeNet.Interface.DisconnectReason;
+using DisconnectInfo = FacadeNet.Core.Data.DisconnectInfo;
+using DisconnectReason = FacadeNet.Core.Data.DisconnectReason;
 using Random = UnityEngine.Random;
 
 namespace FacadeNet.Tests {

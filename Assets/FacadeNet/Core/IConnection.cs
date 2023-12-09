@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace FacadeNet.Interface {
+namespace FacadeNet.Core {
 	public interface IConnection {
 		int Id { get; }
 		IPEndPoint Endpoint { get; }

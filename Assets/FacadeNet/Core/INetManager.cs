@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace FacadeNet.Interface {
+namespace FacadeNet.Core {
 	public interface INetManager : IDisposable {
 		INetEventSubject EventSubject { get; }
 		IReadOnlyCollection<IConnection> Connections { get; }

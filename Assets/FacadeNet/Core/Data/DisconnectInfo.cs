@@ -1,6 +1,6 @@
 ﻿using System.Net.Sockets;
 
-namespace FacadeNet.Interface {
+namespace FacadeNet.Core.Data {
 	public enum DisconnectReason {
 		ConnectionFailed,
 		Timeout,

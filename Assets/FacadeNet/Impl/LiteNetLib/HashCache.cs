@@ -1,4 +1,4 @@
-﻿namespace FacadeNet.LiteNetLib {
+﻿namespace FacadeNet.Impl.LiteNetLib {
 	internal static class HashCache<T> {
 		public static readonly ulong Id;
 

@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using FacadeNet.Interface;
+using FacadeNet.Core;
 using LiteNetLib;
 using LiteNetLib.Utils;
-using UnityEngine;
-using DisconnectInfo = FacadeNet.Interface.DisconnectInfo;
-using DisconnectReason = FacadeNet.Interface.DisconnectReason;
+using DisconnectInfo = FacadeNet.Core.Data.DisconnectInfo;
+using DisconnectReason = FacadeNet.Core.Data.DisconnectReason;
 
-namespace FacadeNet.LiteNetLib {
+namespace FacadeNet.Impl.LiteNetLib {
 	public class NetManagerImpl : INetManager {
 		public INetEventSubject EventSubject => _eventSubject;
 		public IReadOnlyCollection<IConnection> Connections => _connections.Values;
