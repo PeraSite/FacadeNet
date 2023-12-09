@@ -1,0 +1,17 @@
+{
+    "name": "FacadeNet.MessagePack",
+    "rootNamespace": "",
+    "references": [
+      "GUID:bbde805d927e795439d7a746d1749cab",
+      "GUID:af6691e8c20f469b8df768c0f2d265c3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
