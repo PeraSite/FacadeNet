@@ -1,0 +1,12 @@
+{
+  "name": "com.perasite.facadenet.core",
+  "version": "1.0.0",
+  "displayName": "FacadeNet",
+  "description": "Core interfaces for FacadeNet",
+  "unity": "2021.3",
+  "keywords": ["networking"],
+  "author": {
+    "name": "PeraSite",
+    "email": "pretocki3@gmail.com"
+  }
+}
